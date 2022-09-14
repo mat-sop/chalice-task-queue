@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "FastAPI Serverless Example"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.83.0"
+boto3 = "^1.24.70"
+uvicorn = "^0.18.3"
+debugpy = "^1.6.3"
+colorama = "^0.4.5"
+chalice = "^1.27.3"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+chalice-local = "^0.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

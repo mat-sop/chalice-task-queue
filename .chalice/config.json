@@ -1,0 +1,9 @@
+{
+  "version": "2.0",
+  "app_name": "chalice-task-queue",
+  "stages": {
+    "local": {
+      "api_gateway_stage": "api"
+    }
+  }
+}
